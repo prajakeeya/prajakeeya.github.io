@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Page</title>
+    <title>FAQ Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <h1>Welcome to my simple GitHub page!</h1>
-    <p>This is a basic paragraph.</p>
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">What is your company's mission?</div>
+            <div class="answer">Our mission is to make the world a better place through technology.</div>
+        </div>
+        <!-- Repeat above structure for more FAQs -->
+    </div>
 </body>
+
 </html>
