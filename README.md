@@ -1,4 +1,6 @@
 # Prajakeeya FAQs(English)
+
+This webpage currently has FAQs (Frequently asked questions) about Prajakeeya and its concepts.
 https://prajakeeya.github.io/
 
 # Prajakeeya Official
